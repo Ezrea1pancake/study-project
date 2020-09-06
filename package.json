@@ -1,0 +1,26 @@
+{
+  "name": "study-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "validate-commit-msg",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezrea1pancake/study-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezrea1pancake/study-project/issues"
+  },
+  "homepage": "https://github.com/Ezrea1pancake/study-project#readme",
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.1.0",
+    "husky": "^4.2.5",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
